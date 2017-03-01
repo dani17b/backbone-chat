@@ -1,0 +1,9 @@
+<div class="chat-item
+<% if(chat.get('owner') == myUser.get('id')){ %>
+  my-chat
+<% } %>
+">
+    <span class="author" style="color:<%= users.get(chat.get('owner')).get('color') %>;"><%= users.get(chat.get('owner')).get("alias") %></span>
+    <p><%= chat.get('msg') %></p>
+    <span class="date"><%= DateUtils.timeToStr(new Date(chat.get('date'))) %></span>
+</div>

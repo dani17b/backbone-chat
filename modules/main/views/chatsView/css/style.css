@@ -1,0 +1,172 @@
+.chats-view {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.chats-view .chats-topbar {
+    background-color: #144080;
+    height: 50px;
+    position: relative;
+}
+
+.chats-view .chats-topbar .header {
+    width: calc(100% - 77px);
+    float: left;
+    height: 100%;
+}
+
+.chats-view .chats-topbar .header .logo {
+    width: 100px;
+    margin: 5px;
+    height: calc(100% - 10px);
+    display: block;
+    float: left;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chats-view .chats-topbar .header .user-name {
+    width: calc(100% - 120px);
+    margin: 5px;
+    height: calc(100% - 10px);
+    display: block;
+    float: left;
+    color: white;
+    font-size: larger;
+    line-height: 2.75em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.chats-view .chats-topbar .notifications {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    position: relative;
+}
+
+.chats-view .chats-topbar .notifications i {
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    position: absolute;
+    left: 2px;
+    top: 7.5px;
+    color: white;
+}
+
+.chats-view .chats-topbar .notifications .bubble {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #e74c3c;
+    right: 0;
+    top: 0;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 1.75em;
+    display: none;
+}
+
+.chats-view .chats-list {
+    height: calc(100% - 50px);
+    width: 100%;
+    position: relative;
+}
+
+.chats-view .chats-list .chats-list-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url(../img/background.jpg);
+    opacity: 0.3;
+    background-repeat: repeat;
+    position: absolute;
+}
+
+.chats-view .chats-list .chats-list-wrapper {
+    width: 100%;
+    height: calc(100% - 50px);
+    overflow-y: auto;
+    position: absolute;
+}
+
+.chats-view .chats-list .chat-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    float: left;
+    width: calc(100% - 92px);
+    margin-left: 15px;
+    margin-top: 10px;
+    clear: both;
+    border-radius: 0px 3px 3px 3px;
+}
+
+.chats-view .chats-list .chat-item.my-chat {
+    float: right;
+    margin-right: 15px;
+    background-color: #e6ffd1;
+}
+
+.chats-view .chats-list .chat-item .author {
+    font-size: small;
+    font-weight: 600;
+    float: left;
+    margin: 7.5px;
+    margin-bottom: 3px;
+}
+
+.chats-view .chats-list .chat-item p {
+    clear: both;
+    float: left;
+    margin: 7.5px;
+    margin-top: 0;
+    padding-right: 10px;
+    color: #1d1d1d;
+}
+
+.chats-view .chats-list .chat-item .date {
+    float: right;
+    color: #D7D7D7;
+    margin: 7.5px;
+    margin-top: 3px;
+    font-size: small;
+}
+
+.chats-view .chats-send {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.chats-view .chats-send input {
+    position: relative;
+    height: 35px;
+    float: left;
+    margin: 5px;
+    width: calc(100% - 77px);
+    padding-left: 15px;
+    border: 1px solid #D7D7D7;
+}
+
+.chats-view .chats-send button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #144080;
+    border: none;
+    float: right;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.chats-view .chats-send button i {
+    color: white;
+}

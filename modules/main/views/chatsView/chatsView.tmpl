@@ -1,0 +1,25 @@
+<div class="chats-view">
+  <div class="chats-topbar">
+    <div class="header">
+      <span class="logo"></span>
+      <span class="user-name"><%= myUser.get("name") %></span>
+    </div>
+    <div class="notifications">
+      <i class="fa fa-bell" aria-hidden="true"></i>
+      <span class="bubble"></span>
+    </div>
+
+  </div>
+  <div class="chats-list">
+    <span class="chats-list-background"></span>
+    <div class="chats-list-wrapper">
+      <% _.each(chats.models, function(chat){ %>
+        <%= itemTemplate({myUser : myUser, chat : chat, DateUtils : DateUtils, users : users}) %>
+      <% }); %>
+    </div>
+  </div>
+  <form class="chats-send">
+    <input type="text" placeholder="Write a message"/>
+    <button><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+  </form>
+</div>

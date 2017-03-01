@@ -1,0 +1,73 @@
+.home-view {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+}
+
+.home-view .home-topbar {
+    background-color: #144080;
+    height: 50px;
+}
+
+.home-view .content {
+    background-color: white;
+    height: calc(100% - 50px);
+}
+
+.home-view .content .user-photo {
+    width: 200px;
+    margin-left: calc(50% - 101.5px);
+    margin-top: 50px;
+    float: left;
+    height: 200px;
+    border-radius: 100%;
+    background-image: url('../img/logo.png');
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid #D7D7D7;
+}
+
+.home-view .content .user-name {
+    width: 200px;
+    margin-left: calc(50% - 100px);
+    margin-top: 25px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.home-view .content .user-register-date {
+    width: 200px;
+    margin-left: calc(50% - 100px);
+    margin-top: 45px;
+    float: left;
+    text-align: center;
+    font-size: x-small;
+}
+
+.home-view .content .user-register-date .title {
+    float: left;
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    font-size: small;
+}
+
+.home-view .content .user-register-date .register-date {
+    float: left;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+.home-view i {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+}

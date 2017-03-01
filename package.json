@@ -1,0 +1,24 @@
+{
+    "name": "backbone-chat",
+    "description": "Backbone chat example",
+    "version": "1.0.0",
+    "author": "Daniel Turiño <daniel.anido17@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dani17b/backbone-chat.git"
+    },
+    "license": "MIT License",
+    "bugs": {
+        "url": "https://github.com/dani17b/backbone-chat/issues"
+    },
+    "homepage": "https://github.com/dani17b/backbone-chat",
+    "private": false,
+    "dependencies": {
+        "backbone": "1.2.3",
+        "underscore": "1.8.3",
+        "jquery": "1.11.3",
+        "requirejs": "2.1.20",
+        "requirejs-text": "2.0.12",
+        "require-css": "0.1.8"
+    }
+}
