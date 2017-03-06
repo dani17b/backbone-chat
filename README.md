@@ -37,13 +37,16 @@ $ python -m http.server
 ```
 
 ## Screenshots
-Login view
+### Login view
+
 ![alt tag](https://raw.githubusercontent.com/dani17b/backbone-chat/master/screenshots/login.png)
 
-User information view
+### User information view
+
 ![alt tag](https://raw.githubusercontent.com/dani17b/backbone-chat/master/screenshots/init_session.png)
 
-Chats view
+### Chats view
+
 ![alt tag](https://raw.githubusercontent.com/dani17b/backbone-chat/master/screenshots/chat.png)
 
 ### Notes
